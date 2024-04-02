@@ -17,6 +17,7 @@ public class Collide : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision c){
-        c.gameObject.SetActive(false);
+        Debug.Log("collide");
+        gameObject.SetActive(false);
     }
 }
